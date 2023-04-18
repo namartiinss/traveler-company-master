@@ -11,28 +11,28 @@ export function Footer() {
 
 export const FooterContainer = styled.footer`
   background: linear-gradient(90deg, #7b80fc 0%, #ff00ac 100%);
-  padding: 40px 0;
+  padding: 10px 0;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 
   h5 {
     font-family: "Montserrat Alternates";
     font-style: normal;
     font-weight: 600;
-    font-size: 31.2243px;
+    font-size: 20px;
     line-height: 38px;
     color: #ffffff;
   }
 
   img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
   @media(max-width: 1000px){
-      padding: 20px 0;
+      padding: 10px 0;
     h5{
       font-size: 1rem;
     }
